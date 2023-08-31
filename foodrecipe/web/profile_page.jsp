@@ -227,7 +227,7 @@
           </a>
           <div class="dropdown">
               <a href="profile_page.jsp" class="">Your Profile</a>
-              <a href="#">Logout</a>
+              <a href="logout.jsp">Logout</a>
           </div>
       </div>
   </header>

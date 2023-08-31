@@ -234,14 +234,14 @@
         <a href="saved.jsp">Saved</a>
       </div>
       <div class="user">
-        <a href="{% url 'profile_page' %}" class="user-profile">
+        <a href="profile_page.jsp" class="user-profile">
           <p style="overflow: hidden">
             <i class="fa-solid fa-user"></i>&nbsp;<%= session.getAttribute("username") %>
           </p>
         </a>
         <div class="dropdown">
           <a href="profile_page.jsp" class="">Your Profile</a>
-          <a href="#">Logout</a>
+          <a href="logout.jsp">Logout</a>
         </div>
       </div>
     </header>

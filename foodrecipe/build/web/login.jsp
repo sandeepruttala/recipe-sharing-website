@@ -131,7 +131,7 @@
                 <br><br>
                 <button type="submit">Login</button>
             </form>
-            <p>New to Recipes? <a href="register.html">Register Here.</a></p>
+            <p>New to Recipes? <a href="register.jsp">Register Here.</a></p>
             <p class="copy">&copy; 2023 RecipeShare. All rights reserved.</p>
         </div>
     </div>
