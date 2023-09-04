@@ -1,0 +1,108 @@
+body{
+    background-color:white ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+}
+.div1{
+    background-color:rgb(232, 238, 229);
+    padding:30px;
+    size:50px;
+}
+.space {
+    padding: 10px;
+    border: 1px solid #eaf4ea;
+  }
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+ }
+ .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #90d983;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  input{
+    border:2px solid rgb(175, 175, 175);
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  a, u {
+    text-decoration: none;
+  }
+
+  .div2{
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 8px;
+  width:90%;
+  height:90%;
+  }
+
+  .borderr{
+    border: 2px solid gray;
+    background-color: white;
+    border-radius: 12px;
+    min-height: 700px;
+    margin:auto;
+    width: 600px;
+  }
+
+  img {
+    display: block;
+    margin-left: 90px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    width:100px;
+    height: 100px;
+  }
+  div.leftpolaroid {
+    float:left;
+    width: 20%;
+    height: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15px;
+    margin-left: 30px;
+  }
+  
+  div.leftcontainer {
+    text-align: center;
+    padding: 5px 10px;
+  }
+.div5{
+    border-color:gray;
+    border-radius:12px;
+    background-color: lightgrey;
+    width:500px;
+    min-height: 40px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+.left{
+    float:left;
+    font-size: 20px;
+}
+.right{
+    float:right;
+    margin-right: 50px;
+    font-size: 20px;
+    align-items: start;
+}
+
+  
